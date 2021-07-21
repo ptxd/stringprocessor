@@ -5,6 +5,7 @@
 Lightweight package for processing strings in Javascript 
 
 [![license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/ptxd/stringprocessor.git/master/LICENSE)
+[![npm version](https://badge.fury.io/js/stringprocessor.svg)](https://badge.fury.io/js/stringprocessor)
 
 </div>
 
