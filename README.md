@@ -35,13 +35,17 @@ const {StringProc, StringToObject} = require('stringprocessor')
 
 //StringProc only takes in a single argument
 
-# console.log(StringProc.capitalize('string')) // returns String
+# console.log(StringProc.capitalize('california')) 
+// returns California
 
-# console.log(StringProc.deletespaces('cali f ornia') // returns 'california'
+# console.log(StringProc.deletespaces('cali f ornia') 
+// returns 'california'
 
-# console.log(StringToObject.deletespaces('state','cali f ornia')) //returns {state:'california'}
+# console.log(StringToObject.deletespaces('state','cali f ornia')) 
+//returns {state:'california'}
 
-# console.log(StringToObject.deletespaces('state','cali f ornia')) //returns {state:'California'}
+# console.log(StringToObject.deletespaces('state','cali f ornia')) 
+//returns {state:'California'}
 ```
 
 ## Contributing
