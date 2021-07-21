@@ -41,11 +41,11 @@ const {StringProc, StringToObject} = require('stringprocessor')
 # console.log(StringProc.deletespaces('cali f ornia') 
 // returns 'california'
 
-# console.log(StringToObject.deletespaces('state','cali f ornia')) 
-//returns {state:'california'}
+# console.log(StringToObject.capitalize('state','california')) 
+//returns {state:'California'}
 
 # console.log(StringToObject.deletespaces('state','cali f ornia')) 
-//returns {state:'California'}
+//returns {state:'california'}
 ```
 
 ## Contributing

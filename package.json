@@ -1,6 +1,6 @@
 {
   "name": "stringprocessor",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "methods for processing strings",
   "main": "index.js",
   "scripts": {
