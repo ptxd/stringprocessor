@@ -7,6 +7,29 @@
 
 class StringProc{
     static lowercase(key,str){
+        this.key = str.toLowerCase();
+		return this.key;
+    }
+
+	static uppercase(key,str){
+		let obj = {}
+		obj[`${key}`] = str.toUpperCase();
+		return obj;
+	}
+	static capitalize(key,str){
+		let obj = {}
+		obj[`${key}`] = str[0].toUpperCase() + str.substring(1);
+		return obj;
+	}
+	static deletespaces(key,str){
+		let obj = {}
+		obj[`${key}`] = str.replace(/\s+/g,'');
+		return obj;
+	}
+}
+
+class StringToObject{
+    static lowercase(key,str){
         let obj = {}
 		obj[`${key}`] = str.toLowerCase();
 		return obj;
@@ -30,6 +53,7 @@ class StringProc{
 }
 
 module.exports = {
-	StringProc
+	StringProc,
+	StringToObject
 }
 
