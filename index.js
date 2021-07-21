@@ -6,22 +6,22 @@
  ****/
 
 class StringProc{
-    static lowercase(key,str){
+    static lowercase(str){
         this.key = str.toLowerCase();
 		return this.key;
     }
 
-	static uppercase(key,str){
+	static uppercase(str){
 		let obj = {}
 		obj[`${key}`] = str.toUpperCase();
 		return obj;
 	}
-	static capitalize(key,str){
+	static capitalize(str){
 		let obj = {}
 		obj[`${key}`] = str[0].toUpperCase() + str.substring(1);
 		return obj;
 	}
-	static deletespaces(key,str){
+	static deletespaces(str){
 		let obj = {}
 		obj[`${key}`] = str.replace(/\s+/g,'');
 		return obj;
