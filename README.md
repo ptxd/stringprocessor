@@ -37,7 +37,7 @@ const {StringProc, StringToObject} = require('stringprocessor')
 //StringProc only takes in a single argument
 
 # console.log(StringProc.capitalize('california')) 
-// returns California
+// returns 'California'
 
 # console.log(StringProc.deletespaces('cali f ornia') 
 // returns 'california'
