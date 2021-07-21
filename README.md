@@ -21,7 +21,7 @@ yarn add stringprocessor
 ## Functionalities
 
 
-* **StringToString:** Methods returns a string literal
+* **StringProc:** Methods returns a string literal
 * **StringToObject:** Methods require a key value and returns an object key-value pair
 
 Current list of methods and usage:
