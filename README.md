@@ -25,10 +25,10 @@ yarn add stringprocessor
 * **StringToObject:** Methods require a key value and returns an object key-value pair
 
 Current list of methods and usage:
-lowercase
-uppercase
-capitalize
-deletespaces
+*lowercase
+*uppercase
+*capitalize
+*deletespaces
 
 ## Usage
 ```js
