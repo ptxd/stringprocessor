@@ -16,3 +16,34 @@ npm install stringprocessor
 
 // with yarn
 yarn add stringprocessor
+
+## Installation
+
+Functionalities
+
+* **StringToString:** Methods returns a string literal
+* **StringToObject:** Methods require a key value and returns an object key-value pair
+
+Current list of methods and usage:
+lowercase
+uppercase
+capitalize
+deletespaces
+
+## Usage
+```js
+const {StringProc, StringToObject} = require('stringprocessor')
+
+//StringProc only takes in a single argument
+
+console.log(StringProc.capitalize('string')) // returns String
+
+console.log(StringProc.deletespaces('cali f ornia') // returns 'california'
+
+console.log(StringToObject.deletespaces('state','cali f ornia')) //returns {state:'california'}
+
+console.log(StringToObject.deletespaces('state','cali f ornia')) //returns {state:'California'}
+
+## License
+
+[MIT licensed](./LICENSE).
