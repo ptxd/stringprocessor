@@ -5,26 +5,23 @@
  License: MIT 
  ****/
 
-class StringProc{
+ class StringProc{
     static lowercase(str){
         this.key = str.toLowerCase();
 		return this.key;
     }
 
 	static uppercase(str){
-		let obj = {}
-		obj[`${key}`] = str.toUpperCase();
-		return obj;
+		this.key = str.toUpperCase();
+		return this.key;
 	}
 	static capitalize(str){
-		let obj = {}
-		obj[`${key}`] = str[0].toUpperCase() + str.substring(1);
-		return obj;
+		this.key = str[0].toUpperCase() + str.substring(1);
+		return this.key;
 	}
 	static deletespaces(str){
-		let obj = {}
-		obj[`${key}`] = str.replace(/\s+/g,'');
-		return obj;
+		this.key = str.replace(/\s+/g,'');
+		return this.key;
 	}
 }
 
